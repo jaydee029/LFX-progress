@@ -6,7 +6,7 @@ Succesfully run/log of both the workflows can be viewed [here](https://github.co
 
 A few changes were made in the dockerfiles while copying them linked [here](https://github.com/jaydee029/buildutils/tree/main/dockerfiles)
 
-The PR Build is somewhat complete, i've used basic commands for building and testing the images rather than actions, as it felt unrequired, since the ubuntu runner has drivers for both Makefile as well as docker build. Things which can be added include:-
+The PR Build is somewhat complete, i've used basic commands for building and testing the images rather than actions, as it felt unrequired, since the ubuntu runner has drivers for both Makefile as well as docker build, this can be changed if required. Things which can be added include:-
 - caching
 - error handling(if req)
 - paths- so that the workflow is not invoked on text and similar changes.
